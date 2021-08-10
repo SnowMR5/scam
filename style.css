@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.anime {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: flex-start;
+    padding: 10px 60px 100px 70px;
+    width: 90%;
+}
+
+.img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img img {
+    width: 50%;
+}
+
+.paragraph {
+    width: 100%;
+    display: flex;
+}
+
+.paragraph p {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 30px;
+}
+
+.form-control {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+.form-control form {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input-email input,
+.pass input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.input-email input:focus,
+.pass input:focus {
+    border: 1px solid #347ae2;
+    outline: 0 none;
+}
+
+.butt input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0;
+    background-color: #347ae2;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.link {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #347ae2;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.link a:hover {
+    border-bottom: 1px solid #347ae2;
+}
+
+.link div {
+    width: 100%;
+    background-color: #cacaca;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 10px;
+}
+
+.account {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account button {
+    width: 55%;
+    font-size: 18px;
+    padding: 12px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 0;
+    background-color: #57b916;
+    cursor: pointer;
+}
+
+.fanpage {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+} 
+
+.fanpage a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+.fanpage a:hover {
+    border-bottom: 1px solid black;
+}
+
+.fanpage p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+.language {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.cent-lang {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    margin: auto;
+}
+
+.cent-lang a {
+    text-decoration: none;
+    color: #9b9999;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.cent-lang a:hover {
+    border-bottom: .2px solid rgba(0,0,0,0.3);
+}
+
+.language .plus {
+    padding: 1px 8px;
+    color: #9b9999;
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+}
+
+.language .div-line {
+    width: 70%;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.options {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin: auto;
+    position: relative;
+}
+
+.options a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    color: #9b9999;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 8px;
+}
+
+.options a:hover {
+    border-bottom: .2px solid rgba(0,0,0,0.3);
+}
+
+.options .fa-caret-right {
+    font-size: 20px;
+    color: #587ae959;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 8px;
+}
+
+#reg-1 {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    color: white;
+    background: crimson;
+}
